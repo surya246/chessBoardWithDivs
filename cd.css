@@ -1,0 +1,39 @@
+#grand{
+	text-align: center;
+	padding:10px;
+	padding-top:150px;
+}
+.block1{
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	margin-left:-2px;
+	background: white;
+}
+.block2{
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	margin-left:-2px;
+	background: black;
+}
+.row1{
+	margin-top:-4px;
+	margin-left:-4px;
+}
+.row2{
+	margin-top:-4px;
+	margin-left:-4px;
+}
+.block1:nth-child(2n){  
+ 	 background: black;
+}
+.block2:nth-child(2n){  
+  	background: white;
+}
+/*.block2:nth-child(1){
+append("<img src='/home/surya/Desktop/images.png' style='width:100px;height:100px;'>");
+}*/
+
+
+
